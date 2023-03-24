@@ -1,0 +1,28 @@
+.todo-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.fa-check-circle{
+    color: darkgreen;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 21px;
+}
+.fa-trash{
+    color:#ff0000;
+    font-size: 21px;
+    cursor: pointer;
+}
+.todo-remove-btn{
+    background-color: #ffc7c8;
+    border: 1px solid #ffc7c8;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0px 2px 8px 2px #888888;
+    cursor: pointer;
+}
+.todo-text{
+    font-weight: 600;
+}
